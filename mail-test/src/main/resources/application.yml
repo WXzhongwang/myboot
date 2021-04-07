@@ -1,0 +1,25 @@
+server:
+  port: 6321
+
+spring:
+  mail:
+    host: mail.hengtiansoft.com
+  port: 25
+  username: yingxiong@hengtiansoft.com
+  password:
+  default-encoding: UTF-8
+  properties:
+    mail:
+      debug: true
+      smtp:
+        socketFactoryClass: javax.net.ssl.SSLSocketFactory
+email:
+    sender: yingxiong@hengtiansoft.com
+    file:
+      name: members.xml
+logging:
+  config: classpath:logback.xml
+
+application:
+  name: political-birthday-plan
+  version: R.1.2.3
